@@ -37,7 +37,7 @@ namespace Tyuiu.AshirbakievAR.Sprint3.Task0.V5
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
-            Console.WriteLine(ds.Summ(start,end));
+            Console.WriteLine(ds.GetSumSeries(start,end));
             Console.ReadKey();
         }
     }
