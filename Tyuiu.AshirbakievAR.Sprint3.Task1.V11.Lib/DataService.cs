@@ -3,18 +3,19 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using tyuiu.cources.programming.interfaces.Sprint3;
 
 namespace Tyuiu.AshirbakievAR.Sprint3.Task1.V11.Lib
 {
-    public class DataService
+    public class DataService : ISprint3Task1V11
     {
-        public double multiplication(int start, int end)
+        public double GetMultiplySeries(double value, int startValue, int stopValue)
         {
             double d = 1;
-            while (start <= end)
+            while (startValue <= stopValue)
             {
-                d *= (Math.Pow(0.75, start) + 0.5);
-                start++;
+                d *= (Math.Pow(0.75, startValue) + value);
+                startValue++;
             }
             return Math.Round(d, 3);
         }

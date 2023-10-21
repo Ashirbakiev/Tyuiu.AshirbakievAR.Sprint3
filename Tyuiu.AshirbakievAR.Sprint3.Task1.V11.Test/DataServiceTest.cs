@@ -11,7 +11,7 @@ namespace Tyuiu.AshirbakievAR.Sprint3.Task1.V11.Test
         public void TestMethod1()
         {
             DataService ds = new DataService();
-            Assert.AreEqual(0.061, ds.multiplication(1, 10));
+            Assert.AreEqual(0.061, ds.GetMultiplySeries(0.5, 1, 10));
         }
     }
 }
