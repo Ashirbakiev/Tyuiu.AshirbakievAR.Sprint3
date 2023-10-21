@@ -28,7 +28,8 @@ namespace Tyuiu.AshirbakievAR.Sprint3.Task2.V15
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
-
+            Console.Write("Введите переменную a: ");
+            int vaule = Convert.ToInt32(Console.ReadLine());
             Console.Write("Введите нижний предел: ");
             int start = Convert.ToInt32(Console.ReadLine());
             Console.Write("Введите конечный предел: ");
@@ -37,7 +38,7 @@ namespace Tyuiu.AshirbakievAR.Sprint3.Task2.V15
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
-            Console.WriteLine(ds.sum(start, end));
+            Console.WriteLine(ds.GetSumSeries(vaule, start, end));
             Console.ReadKey();
         }
     }

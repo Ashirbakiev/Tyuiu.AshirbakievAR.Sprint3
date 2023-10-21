@@ -11,7 +11,7 @@ namespace Tyuiu.AshirbakievAR.Sprint3.Task2.V15.Test
         public void TestMethod1()
         {
             DataService ds = new DataService();
-            Assert.AreEqual(0.298, ds.sum(1, 20));
+            Assert.AreEqual(0.298, ds.GetSumSeries(0.5,1, 20));
         }
     }
 }
