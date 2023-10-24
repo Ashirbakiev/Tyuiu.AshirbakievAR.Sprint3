@@ -42,6 +42,7 @@ namespace Tyuiu.AshirbakievAR.Sprint3.Task5.V11
             Console.WriteLine("***************************************************************************");
             Console.WriteLine(ds.GetSumSumSeries(vaule, start, start2, end, end2));
             Console.ReadKey();
+
         }
     }
 }

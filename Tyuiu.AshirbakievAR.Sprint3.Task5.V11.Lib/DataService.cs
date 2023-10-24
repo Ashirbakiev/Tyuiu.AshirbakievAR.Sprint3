@@ -20,6 +20,7 @@ namespace Tyuiu.AshirbakievAR.Sprint3.Task5.V11.Lib
                 }
             }
             return Math.Round(res, 3);
+
         }
     }
 }
